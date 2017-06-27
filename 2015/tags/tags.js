@@ -1,7 +1,7 @@
 'use strict'
 
 var fs = require('fs');
-var sfile = fs.readFileSync('../js/mdf/2015/tags/input1.txt').toString();
+var sfile = fs.readFileSync('2015/tags/input1.txt').toString();
 var inputs = sfile.split('\n');
 inputs.shift();
 inputs; /*?*/

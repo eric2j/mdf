@@ -1,7 +1,7 @@
 'use strict'
 
 var fs = require('fs');
-var sfile = fs.readFileSync('../js/mdf/2015/trends/input1.txt').toString();
+var sfile = fs.readFileSync('2015/trends/input2.txt').toString();
 var input = sfile.split('\n');
 
 var max = input.shift();
