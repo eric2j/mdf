@@ -8,5 +8,10 @@ T2;
 //r=readline,T=r(),T2=r();
 for(i=0,r='',p=parseInt;i<T.length;i++){r+=p(T[i])|p(T2[i]);}
 console.log(r);
-console.log(T.split('').reduce((a,b,i)=>a+(p(b)|p(T2[i])),''));
+p=parseInt;
+console.log(T.split('').reduce((a,b,i)=>a+(+b|+T2[i]),''));
+
++'3'; /*?*/
+
+parseInt('3') === +'3'; /*?*/
 
