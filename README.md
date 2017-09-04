@@ -15,7 +15,8 @@ Solutions en Javascript
 https://www.isograd.com/FR/solutionconcours.php?contest_id=9#
 
 ## Local
-Tests en local avec VSCode et Quokka.js (https://quokkajs.com/)
+Tests en local avec VSCode et Quokka.js (https://quokkajs.com/). Ajouter `/*?*/` en fin de ligne pour afficher le résultat de l'affectation. 
+Activer sur le fichier courant : `Ctrl+K Q`
 
 ## Codingame
 * use `print` function to display result

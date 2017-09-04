@@ -48,3 +48,4 @@ var TY = +ins[3];
 var a = (true)?(1,c++):3;
 a;
 
+Number('3'); /*?*/
