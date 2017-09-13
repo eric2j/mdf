@@ -11,7 +11,7 @@ var dist = (a, b) => Math.sqrt(Math.pow(gety(b) - gety(a), 2) + Math.pow(getx(b)
 var l = 0;
 var done = [];
 var long = [];
-for (var i = 5; i < 6; i++) {
+for (var i = 0; i < nb; i++) {
     var ds = [];
     input[i]; /*?*/
     var dd = Infinity;
@@ -38,5 +38,4 @@ long;
 var max = Math.max(...long); /*?*/
 l -= max;
 l;
-
-
+console.log(Math.round(l*1000)/1000);
